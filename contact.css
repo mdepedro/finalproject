@@ -1,0 +1,71 @@
+.contact {
+    text-align: center;
+    }
+    
+    h1 {
+        padding-top: 25px;
+    }
+    
+    #emoji {
+        height: 400%;
+        text-align: center;
+    }
+
+    #firstname, #lastname, #subject, #email, #message {
+        background-color: #2732B8;
+        color: white;
+        height: 200%;
+    }
+    
+    #facebook {
+        width: 50px;
+        height: 50px;
+        }
+        
+        #twitter {
+            width: 50px;
+            height: 50px;
+        }
+        
+        footer {
+            text-align: center;
+        }
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            font-size: 25px;
+            margin: 30px;
+            margin-top: 10px;
+            background-color: #F9D9E2;
+            color: white;
+          }
+          a:hover {
+            color: #F4AFC4;
+          }
+          
+          h1, a {
+            font-size: 35px;
+            font-family: 'Poppins', sans-serif;
+            color: #2732B8;
+            font-weight: bold;
+            text-decoration: none;
+          }
+          
+          h2 {
+            font-size: 30px;
+            font-family: 'Poppins', sans-serif;
+            color: #F4AFC4;
+            font-weight: bold;
+            text-decoration: none;
+          }
+          footer {
+            background-color: #2732B8;
+            text-align: center;
+            font-size: 15px;
+            position: fixed;
+            width: 100%;
+          }
+
+    #button {
+        text-align: center;
+    }

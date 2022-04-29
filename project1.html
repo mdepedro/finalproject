@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/projects.css" rel="stylesheet">
+    <title>de Pedro Portfolio</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@600&display=swap');
+      </style>
+  </head>
+  <body>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="https://wcet3.waketech.edu/madepedro/WEB287/final-project/index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://wcet3.waketech.edu/madepedro/WEB287/final-project/portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://wcet3.waketech.edu/madepedro/WEB287/final-project/about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://wcet3.waketech.edu/madepedro/WEB287/final-project/resume.html">Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://wcet3.waketech.edu/madepedro/WEB287/final-project/contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+      <div style="background:transparent !important" class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+          <h1 class="display-4">Animation Project</h1>
+          <p class="lead">This was an animation project that utlized Adobe Illustrator & Adobe After Effects. This project was inspired by my favorite poem and lo-fi animations. </p>
+          <div id="videoWrapper" class="container-fluid">
+            <div style="text-align:center"> 
+                <video id="video1">
+                    <source src="images/dePedroMariaFinal.mp4" alt="lofi animation of poem" type="video/mp4" height="400px" width="600px">
+                    <source src="images/dePedroMariaFinal.ogg" type="video/ogg">
+                    Your browser does not support HTML video.
+                  </video>
+              <br>
+              <a class="btn btn-light" onclick="playPause()">Play/Pause</a>
+              <br><br>
+              <h2>Mood Board</h2>
+              <img class="d-block w-100" alt="moodboard for animation project" src="images/finalprojectproposal.png">
+            </div> 
+            
+            <script> 
+            var myVideo = document.getElementById("video1"); 
+            
+            function playPause() { 
+              if (myVideo.paused) 
+                myVideo.play(); 
+              else 
+                myVideo.pause(); 
+            } 
+            </script> 
+        </div>
+      </div>
+    </div>
+    <footer>
+        <br>
+        <div class="container-fluid">
+              <p>Copyright Bootstrap & Maria de Pedro</p>
+          </div>
+        </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
